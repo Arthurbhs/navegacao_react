@@ -1,0 +1,38 @@
+.Menu{
+    display: flex;
+    flex-basis: 150px;
+    margin: 0;
+
+    background: linear-gradient(to right, rgb(212, 0, 255), rgb(16, 121, 124));
+}
+.Menu ul {
+list-style: none;
+padding: 0;
+}
+
+.Menu li{
+    display: flex;
+
+}
+
+.Menu nav {
+    flex: 1;
+}
+
+.Menu li a {
+
+flex: 1;
+padding:  10px;
+margin-bottom: 10px;
+
+text-decoration: none;
+color:blanchedalmond;
+font-size: 1.5rem;
+
+}
+
+.Menu li a:hover {
+
+    background: linear-gradient(to right, rgb(178, 5, 212), rgb(21, 160, 165));
+
+}
